@@ -1,0 +1,491 @@
+/* CSS général */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-light {
+    border: none;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    border: none;
+}
+
+.barVertical {
+    height: 5px;
+    border: none;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Section 1 (Introduction) */
+#textIntroductif {
+    height: 90vh;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.titreIntroductif {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.imgIntroductif {
+    margin: 0;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgIntroductif img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Section 2 (Avantages de la réalité virtuelle) */
+#section2 {
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 5rem;
+    background-color: #551bf7;
+    color: #fff;
+    text-align: center;
+}
+
+#section2 h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.infoSection p {
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.card-deck {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.card {
+    border-radius: 4%;
+}
+
+.card-title {
+    color: #2527b9;
+}
+
+.card-body p {
+    color: #000;
+}
+
+#section2 .btn {
+    font-size: 18px;
+    border: 2px solid #551bf7;
+    background-color: #ffffff;
+    color: #000;
+}
+
+/* Section 3 (Technologie de réalité virtuelle) */
+#section3 {
+    padding-top: 4rem;
+}
+
+#section3 .imgIntroductif {
+    padding-left: 6rem;
+}
+
+#section3 .infoSection3 {
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+#section3 .join img {
+    background-color: #e4eef1;
+    border-radius: 60%;
+    overflow: hidden;
+}
+
+#section3 .join p {
+    font-size: 15px;
+    padding: 1rem 0;
+    color: grey;
+}
+
+/* Section 4 (Avantages de la réalité virtuelle dans l'éducation) */
+#section4 {
+    padding: 4rem 0;
+    background-color: rgb(224, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid #ccc;
+}
+
+#section4 h1 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#section4 .box {
+    width: 80%;
+    height: 120px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #868282;
+}
+
+/* Section 5 (Effets de la réalité virtuelle sur le cerveau) */
+#section5 {
+    padding: 4rem;
+}
+
+#section5 .text {
+    align-items: center;
+    padding-left: 6rem;
+    font-size: 15px;
+}
+
+#section5 i img {
+    background-color: #e4eef1;
+    border-radius: 68%;
+    overflow: hidden;
+}
+
+#section5 h2 {
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+#section5 .btn {
+    background-color: #fff;
+    border: 2px solid #654AFF;
+    color: #000;
+    font-size: 14px;
+    height: max-content;
+}
+
+/* Section 6 (Avantages de la réalité virtuelle) */
+#section6 .image-container {
+    position: relative;
+}
+
+#section6 .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    padding: 20px;
+    width: 35%;
+}
+
+#section6 h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #654AFF;
+}
+
+#section6 p {
+    color: grey;
+    letter-spacing: 4px;
+}
+
+#section6 .btn {
+    background-color: #fff;
+    border: 2px solid #654AFF;
+    color: #000;
+    font-size: 14px;
+    height: max-content;
+}
+
+/* Section 7 (Avantages de la réalité virtuelle dans l'éducation) */
+#section7 {
+    margin: 4rem;
+}
+
+#section7 h1 {
+    font-weight: 600;
+    color: #654AFF;
+}
+
+#section7 p {
+    line-height: 2.5;
+    font-size: 15px;
+    text-align: justify;
+    width: 90%;
+}
+
+#section7 #second {
+    width: 80%;
+    font-weight: 200;
+    color: #654AFF;
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+#section7 #titre {
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 5px;
+}
+
+#section7 i {
+    color: #654AFF;
+    font-size: 30px;
+}
+
+#section7 #brand {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+/* Section 8 (Suivez-nous) */
+#section8 {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #654AFF;
+}
+
+#section8 h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+#section8 i {
+    color: #fff;
+    font-size: 30px;
+    margin: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 4rem 0;
+    background-color: #2c2b2b;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #4b4bb8;
+    text-decoration: underline;
+}
+
+/* Media Queries pour tablettes */
+@media (max-width: 1024px) {
+    .barVertical {
+        height: 5px;
+        border: none;
+        width: 200px;
+    }
+
+    #textIntroductif {
+        padding: 2rem;
+        text-align: center;
+        text-align: left;
+    }
+
+    .titreIntroductif {
+        font-size: 40px;
+    }
+
+    .imgIntroductif {
+        height: auto;
+    }
+
+    #section2 h1 {
+        font-size: 40px;
+    }
+
+    .infoSection p {
+        font-size: 16px;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .card {
+        margin: 2rem;
+        width: 90%;
+        align-items: center;
+    }
+
+    #section3 .imgIntroductif {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #section4 {
+        margin-top: 4rem;
+        height: 120%;
+    }
+
+    #section4 #section4-header {
+        padding-top: 6rem;
+    }
+
+    #section4 h1 {
+        font-size: 40px;
+    }
+
+    #section4 .box {
+        height: auto;
+        padding: 1rem;
+        text-align: left;
+    }
+
+    #section5 .text {
+        padding: 2rem;
+        text-align: left;
+    }
+
+    #section5 h2 {
+        font-size: 30px;
+    }
+
+    #section6 h2 {
+        font-size: 30px;
+    }
+
+    .text-overlay {
+        width: 60%;
+        left: 20%;
+    }
+
+    #section7 h1 {
+        font-size: 30px;
+    }
+
+    #section7 #second {
+        font-size: 20px;
+    }
+
+    #section8 h1 {
+        font-size: 40px;
+    }
+
+    .social {
+        font-size: 30px;
+    }
+}
+
+
+/* Media Queries pour téléphones */
+@media (max-width: 767px) {
+    /* Réduire la taille de la barre verticale */
+    .barVertical {
+        width: 100px;
+    }
+
+    /* Ajustements pour la section 1 */
+    #textIntroductif {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .titreIntroductif {
+        font-size: 30px;
+    }
+
+    .imgIntroductif {
+        height: auto;
+    }
+
+    /* Ajustements pour la section 2 */
+    #section2 h1 {
+        font-size: 30px;
+    }
+
+    .infoSection p {
+        font-size: 15px;
+    }
+
+    .card-deck {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin: 2rem;
+        width: 90%;
+        align-items: center;
+    }
+
+    /* Ajustements pour la section 3 */
+    #section3 .imgIntroductif {
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #section3 .infoSection3 {
+        padding-left: 1rem;
+    }
+
+    /* Ajustements pour la section 4 */
+    #section4 {
+        margin-top: 2rem;
+    }
+
+    #section4 h1 {
+        font-size: 30px;
+    }
+
+    #section4 .box {
+        padding: 0.5rem;
+    }
+
+    /* Ajustements pour la section 5 */
+    #section5 .text {
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    #section5 h2 {
+        font-size: 25px;
+    }
+
+    /* Ajustements pour la section 6 */
+    #section6 .text-overlay {
+        width: 80%;
+        left: 10%;
+    }
+
+    #section6 h2 {
+        font-size: 30px;
+    }
+
+    /* Ajustements pour la section 7 */
+    #section7 h1 {
+        font-size: 25px;
+    }
+
+    #section7 #second {
+        font-size: 18px;
+    }
+
+    /* Ajustements pour la section 8 */
+    #section8 h1 {
+        font-size: 30px;
+    }
+
+    .social {
+        font-size: 25px;
+    }
+}
